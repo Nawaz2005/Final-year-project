@@ -1,0 +1,59 @@
+/* Remove Streamlit side padding */
+.block-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    max-width: 100% !important;
+}
+
+/* Hide the << sidebar collapse icon */
+[data-testid="collapsedControl"] {
+    display: none;
+}
+
+/* Global */
+body {
+    background: linear-gradient(135deg, #0b1f33, #102a43);
+    color: #eaf6ff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar header */
+.sidebar-header {
+    font-size: 22px;
+    font-weight: 700;
+    padding: 12px;
+    color: #e6f2ff;
+    border-bottom: 1px solid #2e5c88;
+    margin-bottom: 10px;
+}
+
+/* Sidebar buttons */
+.stSidebar button {
+    background: transparent;
+    color: #dbefff;
+    text-align: left;
+    border: none;
+    font-size: 15px;
+    padding: 8px 12px;
+}
+
+.stSidebar button:hover {
+    background: rgba(63,169,245,0.15);
+    border-radius: 6px;
+}
+
+/* Buttons */
+.stButton > button {
+    background: linear-gradient(90deg, #3fa9f5, #2ed8ff);
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    height: 42px;
+    border: none;
+}
+
+/* Inputs focus */
+input:focus, textarea:focus, select:focus {
+    border: 2px solid #3fa9f5 !important;
+    box-shadow: 0 0 6px #3fa9f5 !important;
+}
